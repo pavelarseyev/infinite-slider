@@ -17,10 +17,12 @@
     display: flex;
     width: 100%;
     overflow: hidden;
+    border: 1px solid tomato;
 }
 
 .holder {
     display: flex;
+    border: 1px solid green;
 }
 
 .slide {
@@ -30,10 +32,6 @@
     width: 300px;
     height: 400px;
     border: 1px solid red;
-
-    & + .slide {
-        margin-left: 30px;
-    }
 }
 
 
