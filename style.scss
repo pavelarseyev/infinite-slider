@@ -1,0 +1,40 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.holder {
+    display: flex;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    border: 1px solid red;
+
+    & + .slide {
+        margin-left: 30px;
+    }
+}
+
+
+
